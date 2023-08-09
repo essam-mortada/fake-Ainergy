@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(0,0,0,0.6);
+ }
+ .exit{
+    direction: rtl;
+ }
+ .exit a{
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 15px ;
+ }
+ .container{
+     width: 90%;
+     height:650px ;
+     background-color: white;
+     border-radius: 5px;
+    padding-top: 15px;
+     margin: auto;
+ }
+ .container ul li a{
+     text-decoration: none;
+     color: #555;
+     transition: all 0.3s;
+     font-size: 15px;
+     font-family: "Roboto", sans-serif;
+     transition: all 0.3s;
+ }
+ .container ul a.clicked{
+     color: #ed893d;
+ }
+ .container ul li{
+     margin: 35px 0px;
+ }
+ .container ul{
+     list-style-type: none;
+ }
+ .container ul .sign-in-up{
+     color: rgb(215, 35, 35);
+     font-weight: bold;
+ }
+ @media (max-width:950px) {
+    .container{
+        height: 750px;
+    }
+ }
+ @media (max-width:600px) {
+    .container{
+        height: 750px;
+    }
+ }
